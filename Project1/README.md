@@ -16,15 +16,6 @@ print(VERSION)
 # DS595/CS525 2022 Fall Individual Project 1
 # Dynamic Programming of Markov Decision Process
 
-#### Starting Date
-* Week 2 Tuesday September 6, 2022(23:59)
-
-#### Due Date
-* Week 4 Tuesday September 20, 2022(23:59)
-
-#### Total Points
-* 100 (One Hundred)
-
 ## Goal
 
 In this assignment, you will be asked to implement policy iteration and value iteration for the Frozen Lake environment (FrozenLake-v1) from [OpenAI Gym](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/) and play the game with the algorithms you implemented. This project will be completed in Python 3.
@@ -36,18 +27,7 @@ In this assignment, you will be asked to implement policy iteration and value it
 If your program works, the command line output should look like this.
 <img src="/Project1/img/UnitTests.png" width="80%">
 
-## Deliverables
-
-Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.zip) and submit it to Canvas.
-
-## Grading
-* policy evaluation (20 points)
-* policy improvement (20 points)
-* policy iteration (20 points)
-* value iteration (20 points)
-* rander game (20 points)
-
-## Hints
+## Methods
 * Policy Evaluation<br/>
 <span style="color:red">**Please note that reward can be defined on (state), (state, action), (state, action, next_state). In this assignment, we define the reward on (state,action,next_state).** The following pseudocode is the general method.</span>
 <img src="/Project1/img/pe.png" width="80%" >
