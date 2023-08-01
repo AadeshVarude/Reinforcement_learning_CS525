@@ -15,16 +15,6 @@ print(VERSION)
 
 # Individual Project 2
 # Model-free Algorithms (Monte-Carlo and Temporal Difference)
-
-#### Starting Date
-* Week 5 Tuesday September 27, 2022 (23:59)
-
-#### Due Date
-* Week 7 Tuesday Oct 11, 2022 (23:59)
-
-#### Total Points
-* 100 (One Hundred)
-
 ## Goals
 In this project, you will be asked to implement two model-free algorithms. The first one is Monte-Carlo(MC), including  the first visit of on-policy MC prediction and on-policy MC control for [blackjack](https://www.gymlibrary.dev/environments/toy_text/blackjack/). The second one is Temporal-Difference(TD), including Sarsa(on-policy) and Q-Learning(off-policy) for [cliffwalking](https://www.gymlibrary.dev/environments/toy_text/cliff_walking/).
 
@@ -41,21 +31,9 @@ Expected Output for project 2-2 (TD)
 * Note: If your code is correct, it will pass all the tests in most cases, but it may fail sometimes (because epsilon-greedy policy will produce randomness), so once you codes fail, please run the test file three times to see if the failure is caused by policy randomness or by your wrong code. (The correct code usually passes the all the tests within 3 times runing).
 * <span style="color:blue">**TA will run your code three times. You will get full credits if one of the tests passes.**</span><br/>
 
-## Deliverables
-
-Please compress your mc.py and td.py files into a zip file (firstName_lastName_hw2.zip) and submit it to Canvas.
-
-## Grading
-
-* Initial policy (2 points)
-* Epsilon greedy policy (8 points)
-* MC prediction (first visit, on-policy) (20 points)
-* MC control (first visit, on-policy) (20 points)
-* Sarsa (25 points)
-* Q-Learning (25 points)<br/>
 
 
-## Hints
+## Methods
 * On-policy first visit Monte-Carlo prediction
 <img src="/Project2/img/mc_predict.png" width="80%" >
 
